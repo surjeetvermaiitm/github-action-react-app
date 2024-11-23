@@ -3,8 +3,8 @@ name: Youtube app workflow
 on:
   push:
     branches: [main]
-  pull_requests:
-    branch: [main]
+  # pull_requests:
+  #   branch: [main]
 
 
 jobs: 
