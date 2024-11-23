@@ -3,13 +3,13 @@ name: Youtube app workflow
 on:
   push:
     branches: [main]
-  # pull_requests:
+  # pull-requests:
   #   branch: [main]
 
 
 jobs: 
   say_hello:
-    runs_on: ubuntu_latest
+    runs-on: ubuntu_latest
     steps:
       - name: Print Hello World
         run: echo "Hello World"
